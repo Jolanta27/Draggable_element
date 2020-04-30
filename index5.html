@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        #mydiv {
+            position: absolute;
+            z-index: 9;
+            background-color: tomato;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        #mydivheader {
+            padding: 10px;
+            cursor: move;
+            z-index: 10;
+            background-color: burlywood;
+            color: white;
+        }
+    </style>
+
+    <title>Draggable element</title>
+</head>
+
+<body>
+    <h1>Draggable div element</h1>
+
+    <p>Click and hold the mouse button down while moving the div element</p>
+
+    <div id="mydiv">
+        <div id="mydivheader">Click here to move</div>
+        <p>Move</p>
+        <p>this</p>
+        <p>DIV</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
